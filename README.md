@@ -12,7 +12,9 @@ A specialized tool to OCR and extract parallel **Marathi (Devanagari)** and **Ta
 
 ### On Windows
 1. Place your PDF files into the `input/` folder (e.g. `adh-1.pdf`, `adh-2.pdf`).
-2. **Double-click** `start_ocr.bat` in Windows File Explorer.
+2. Run PowerShell using either method:
+   * **Method A**: Right-click [`start_ocr.ps1`](file:///Users/nexus/projects/ocr-tool/start_ocr.ps1) and choose **"Run with PowerShell"**.
+   * **Method B**: Double-click [`start_ocr.bat`](file:///Users/nexus/projects/ocr-tool/start_ocr.bat) (which automatically opens `start_ocr.ps1` in PowerShell with `-NoExit`).
 
 Both scripts perform the exact same prechecks:
 * Verify Python installation.
