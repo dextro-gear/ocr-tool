@@ -1,0 +1,38 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables & secrets (API keys)
+.env
+.env.*
+!.env.example
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large input PDF files (keep the directory tracked via .gitkeep)
+input/*.pdf
+input/*.PDF
+!input/.gitkeep
+
+# Generated output files & rendered page images
+output/
+
+# IDE / Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo

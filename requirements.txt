@@ -1,0 +1,11 @@
+# Requirements for Eknathi Bhagavat OCR Tool
+# Option 1: Vision LLM approach (Recommended for highest accuracy in complex Indic scripts)
+google-genai>=0.1.0
+pydantic>=2.0.0
+pillow>=10.0.0
+pymupdf>=1.24.0
+
+# Option 2: Local OCR approach (Alternative offline method)
+# pytesseract>=0.3.10
+# pdf2image>=1.17.0
+# opencv-python>=4.8.0
